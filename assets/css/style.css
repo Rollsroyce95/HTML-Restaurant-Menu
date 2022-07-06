@@ -28,8 +28,9 @@ main {
 }
 
 nav {
-    background-color: beige;
+    background-color: rgb(beige);
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -52,6 +53,21 @@ nav a:hover {
     color: darkred;
 }
 
+
+nav #homeColor:hover {
+    color:rgb(0, 0, 149);
+}
+
+nav #menuColor:hover{
+    color:darkgoldenrod;
+}
+
+nav #aboutColor:hover{
+    color:rgb(186, 0, 0)
+}
+nav #contactColor:hover{
+    color:black
+}
 #banner {
     width: 100%;
     height: auto;
@@ -72,6 +88,7 @@ nav a:hover {
     font-size: 2em;
     padding: 20px;
     margin: 10px;
+    text-align: center;
 }
 
 table {
